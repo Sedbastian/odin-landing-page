@@ -11,7 +11,8 @@ body {
 .hero,
 .information,
 .quote,
-.sign-up-banner {
+.sign-up-banner,
+.footer {
   display: flex;
   padding-left: 160px;
   padding-right: 160px;
@@ -120,9 +121,70 @@ a {
 }
 
 .quote {
-  background-color: #e5e7eb;  
+  flex-direction: column;
+  align-items: center;
+  background-color: #e5e7eb;
+  color: #1f2937;
+  font-size: 36px;
+  font-style: italic;
+  font-weight: 300;
+  padding-top: 128px;
+  padding-bottom: 100px;
+}
+
+.quote-text {
+  width: 77%;
+}
+
+.quote-signature {
+  width: 40%;
+  font-size: 24px;
+  font-weight: 900;
+  font-style: normal;
+  align-self: flex-end;
 }
 
 .sign-up-banner {
+  justify-content: space-between;
+  border-radius: 8px;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  margin-left: 160px;
+  margin-right: 160px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background-color: #3882f6;
+}
+
+.banner-text .text {
+  color: white;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.banner-text .secondary-text {
+  color: white;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.sign-up-banner button {
+  border: 2px solid white;
+  border-radius: 8px;
+  color: white;
+  background-color: #3882f6;
+  padding-left: 36px;
+  padding-right: 36px;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.footer {
+  justify-content: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  color: #e5e7eb;
+  background-color: #1f2937;
+  font-size: 18px;
   
 }
